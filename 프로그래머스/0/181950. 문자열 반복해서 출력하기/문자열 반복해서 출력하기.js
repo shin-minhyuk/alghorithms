@@ -12,10 +12,11 @@ rl.on('line', function (line) {
     str = input[0];
     n = Number(input[1]);
     
-    let result = ""
+    /** let result = ""
     
     for(let i=0; i<n; i++) {
         result += str
-    }
-    console.log(result)
+    } */
+    
+    console.log(str.repeat(n))
 });
