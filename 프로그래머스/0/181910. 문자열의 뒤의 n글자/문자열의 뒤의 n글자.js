@@ -1,0 +1,1 @@
+const solution = (str,n) => str.substring(str.length-n,str.length)
